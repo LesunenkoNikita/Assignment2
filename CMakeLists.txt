@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Assignment2 main.cpp
         cmake-build-debug/Board.cpp
-        cmake-build-debug/Board.h)
+        cmake-build-debug/Board.h
+        cmake-build-debug/IShape.cpp
+        cmake-build-debug/IShape.h
+        cmake-build-debug/Triangle.cpp
+        cmake-build-debug/Triangle.h)

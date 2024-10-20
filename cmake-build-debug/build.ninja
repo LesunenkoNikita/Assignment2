@@ -61,6 +61,18 @@ build CMakeFiles/Assignment2.dir/Board.cpp.o: CXX_COMPILER__Assignment2_unscanne
   OBJECT_DIR = CMakeFiles/Assignment2.dir
   OBJECT_FILE_DIR = CMakeFiles/Assignment2.dir
 
+build CMakeFiles/Assignment2.dir/IShape.cpp.o: CXX_COMPILER__Assignment2_unscanned_Debug /Users/niklesunenko/CLionProjects/Assignment2/cmake-build-debug/IShape.cpp || cmake_object_order_depends_target_Assignment2
+  DEP_FILE = CMakeFiles/Assignment2.dir/IShape.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Assignment2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Assignment2.dir
+
+build CMakeFiles/Assignment2.dir/Triangle.cpp.o: CXX_COMPILER__Assignment2_unscanned_Debug /Users/niklesunenko/CLionProjects/Assignment2/cmake-build-debug/Triangle.cpp || cmake_object_order_depends_target_Assignment2
+  DEP_FILE = CMakeFiles/Assignment2.dir/Triangle.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Assignment2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Assignment2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Assignment2
@@ -69,7 +81,7 @@ build CMakeFiles/Assignment2.dir/Board.cpp.o: CXX_COMPILER__Assignment2_unscanne
 #############################################
 # Link the executable Assignment2
 
-build Assignment2: CXX_EXECUTABLE_LINKER__Assignment2_Debug CMakeFiles/Assignment2.dir/main.cpp.o CMakeFiles/Assignment2.dir/Board.cpp.o
+build Assignment2: CXX_EXECUTABLE_LINKER__Assignment2_Debug CMakeFiles/Assignment2.dir/main.cpp.o CMakeFiles/Assignment2.dir/Board.cpp.o CMakeFiles/Assignment2.dir/IShape.cpp.o CMakeFiles/Assignment2.dir/Triangle.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1
   OBJECT_DIR = CMakeFiles/Assignment2.dir
   POST_BUILD = :
